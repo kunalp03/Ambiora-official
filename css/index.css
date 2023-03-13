@@ -10,7 +10,7 @@
     overflow-x: hidden;
 }
 body{
-    background-color: #4790a7;
+    background-color: rgb(29, 10, 29);
 }
 .menu{
     cursor: pointer;
@@ -76,10 +76,11 @@ text-align: center;
       
 /* About Us */
 .abt{
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* padding-top: 5px; */
+    padding-bottom: 100px;
     font-size: 25px;
+    text-align: justify;
     color: #fff;
 }
