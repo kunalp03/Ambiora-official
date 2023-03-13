@@ -20,16 +20,6 @@ body{
     width: 42px;
     top: 9px;
 }
-/* @media screen and (min-width:969px){
-    .menu{
-        display: none;
-    }
-}
-@media screen and (max-width:969px) {
-    .menu{
-        visibility: visible;
-    }
-} */
 
 #home{
     height: 90vh;
@@ -78,5 +68,18 @@ text-align: center;
     h2{
         font-size: 33px;
     }
+    .about p{
+        padding: 0px 30px;
+        font-size: 15px;
+    }
 }
-                
+      
+/* About Us */
+.abt{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: #fff;
+}
