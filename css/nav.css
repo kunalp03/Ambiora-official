@@ -46,7 +46,7 @@ nav .left .lefttxt{
 }
 nav .links li a:hover{
     /* text-decoration: underline; */
-    color: black;
+    color: lightblue;
 }
 
 @media screen and (max-width:969px){
