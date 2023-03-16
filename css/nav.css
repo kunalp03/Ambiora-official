@@ -9,7 +9,16 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    width: 100%;
+    /* position: sticky;
+    top: -20;
+    overflow: hidden; */
     /* background-image: url('/images/topbar.png'); */
+    /* position: -webkit-sticky; */
+    /* position: static; */
+    /* width: 100%; */
+    /* top: 0; */
+    /* overflow: hidden; */
     background-color: rgb(20, 19, 61);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -18,8 +27,18 @@ nav{
     align-items: center;
     cursor: pointer;
 }
-nav .left img{
+.right{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+nav .right img{
     width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+nav .left img{
+    width: 150px;
     height: 60px;
     cursor: pointer;
 }
@@ -32,7 +51,7 @@ nav .links li{
     padding: 22px 20px;
     font-family: 'copperplate', sans-serif;
 }
-nav .links li a, nav .left .lefttxt{
+nav .links li a, nav .right .lefttxt{
     color: white;
     text-decoration: none;
     padding: 8px;
@@ -41,7 +60,7 @@ nav .links li a, nav .left .lefttxt{
     /* font-family: 'copperplate', sans-serif; */
     font-family: 'Azonix';                      
 }
-nav .left .lefttxt{ 
+nav .right .lefttxt{ 
     padding-left: 20px;
 }
 nav .links li a:hover{
@@ -54,8 +73,12 @@ nav .links li a:hover{
         padding: 0px;
         font-size: 15px;            
     }
-    nav .left img{
+    nav .right img{
         width: 35px;
+        height: 35px;
+    }
+    nav .left img{
+        width: 80px;
         height: 35px;
     }
 }
@@ -68,11 +91,15 @@ nav .links li a:hover{
     nav .links li{
         padding: 17px 10px;
     }
-    nav .left img{
-        width: 30px;
-        height: 30px;
+    nav .right img{
+        width: 35px;
+        height: 35px;
     }
-    nav .left .lefttxt{
+    nav .left img{
+        width: 80px;
+        height: 35px;
+    }
+    nav .right .lefttxt{
         display: none;
     }
 }
@@ -85,7 +112,7 @@ nav .links li a:hover{
     nav .links li{
         padding: 22px 4px;
     }
-    nav .left .lefttxt{
+    nav .right .lefttxt{
         display: none;
     }
 }
