@@ -135,7 +135,7 @@
     display: flex;
   }
   .sch{
-    padding-top: 5%;
+    padding-top: 5.3%;
     padding-bottom: 5%;
     font-size: 100px;
     font-family: 'Azonix';
@@ -196,6 +196,7 @@
       /* float: left; */
     }
     .sch{
+      padding-top: 13%;
         font-size: 50px;
     }
   }
